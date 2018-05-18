@@ -23,7 +23,7 @@ public class AgBiePageSmokeTest {
 	
 	@Given("^Go to URL$")
 	public void go_to_URL() throws Throwable {
-	   	System.out.println("path set is "+ System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\BROWSERS\\geckodriver.exe"););
+	   	System.out.println("path set is "+ System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\BROWSERS\\geckodriver.exe"));
 		System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\BROWSERS\\geckodriver.exe");
 		System.setProperty("after setting property ");
 		driver = new FirefoxDriver();
