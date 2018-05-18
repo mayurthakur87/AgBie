@@ -1,0 +1,8 @@
+@All
+Feature: Visit page and do Smoke tests
+
+  @All
+  Scenario: Visit Page and do Smoke Test        [90m# AgBiePageSmokeTest.feature:5[0m
+    [32mGiven [0m[32mGo to URL[0m                             [90m# AgBiePageSmokeTest.go_to_URL()[0m
+    [32mWhen [0m[32mI do search[0m                            [90m# AgBiePageSmokeTest.i_do_search()[0m
+    [32mThen [0m[32mshould be able to visit different tabs[0m [90m# AgBiePageSmokeTest.should_be_able_to_visit_different_tabs()[0m

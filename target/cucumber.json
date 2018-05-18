@@ -1,0 +1,70 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Visit Page and do Smoke Test",
+        "description": "",
+        "id": "visit-page-and-do-smoke-tests;visit-page-and-do-smoke-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23714464915,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Go to URL",
+            "match": {
+              "location": "AgBiePageSmokeTest.go_to_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2656474505,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I do search",
+            "match": {
+              "location": "AgBiePageSmokeTest.i_do_search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3330492368,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "should be able to visit different tabs",
+            "match": {
+              "location": "AgBiePageSmokeTest.should_be_able_to_visit_different_tabs()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@All"
+          }
+        ]
+      }
+    ],
+    "name": "Visit page and do Smoke tests",
+    "description": "",
+    "id": "visit-page-and-do-smoke-tests",
+    "keyword": "Feature",
+    "uri": "AgBiePageSmokeTest.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@All"
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="29.701432">
+<testcase classname="Visit page and do Smoke tests" name="Visit Page and do Smoke Test" time="29.701432">
+<system-out><![CDATA[Given Go to URL.............................................................passed
+When I do search............................................................passed
+Then should be able to visit different tabs.................................passed
+]]></system-out>
+</testcase>
+</testsuite>
