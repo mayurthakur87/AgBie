@@ -24,7 +24,7 @@ public class AgBiePageSmokeTest {
 	@Given("^Go to URL$")
 	public void go_to_URL() throws Throwable {
 	   
-		System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\BROWSERS\\geckodriver.exe");
+		//System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\BROWSERS\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
