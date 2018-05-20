@@ -25,7 +25,7 @@ public class AgBiePageSmokeTest {
 	public void go_to_URL() throws Throwable {
 	   	System.out.println("path set is");
 		System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\BROWSERS\\geckodriver.exe");
-		System.setProperty("after setting property ");
+		//System.setProperty("after setting property ");
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
