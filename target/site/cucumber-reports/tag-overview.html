@@ -26,8 +26,8 @@ $(document).ready(function() {
 <script type="text/javascript">
     jQuery(document).ready(function() {
 
-        var chartData = [[3,0,0,0]],
-            chartCategory = ['@All'],
+        var chartData = [[16,0,0,0],[4,0,0,0],[4,0,0,0],[4,0,0,0],[4,0,0,0],[3,0,0,0],[3,0,0,0],[4,0,0,0],[16,0,0,0],[3,0,0,0],[3,0,0,0]],
+            chartCategory = ['@All','@Classification','@Literarture','@Names','@Overview','@RefineCommonName','@RefineSpecies','@Sequences','@Smoke','@TaxanomicStatusAccepted','@TaxanomicStatusSynonym'],
             formattedData = [
                 {
                     name: "Passed",
@@ -89,7 +89,7 @@ $(document).ready(function() {
                 }
             },
             xAxis: {
-                categories: ['@All']
+                categories: ['@All','@Classification','@Literarture','@Names','@Overview','@RefineCommonName','@RefineSpecies','@Sequences','@Smoke','@TaxanomicStatusAccepted','@TaxanomicStatusSynonym']
             },
             yAxis: {
                 min: 0,
@@ -155,7 +155,7 @@ $(document).ready(function() {
           <tr class="info">
             <td>cucumber-jvm-example</td>
                           <td>42</td>
-                        <td>18 May 2018, 09:41</td>
+                        <td>29 May 2018, 08:12</td>
           </tr>
         </tbody>
       </table>
@@ -204,6 +204,81 @@ $(document).ready(function() {
       <tbody>
                   <tr>
             <td class="tagname"><a href="All.html">@All</a></td>
+            <td>5</td>
+            <td>5</td>
+            <td>0</td>
+            <td>16</td>
+            <td>16</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td class="duration-format">42s 622ms</td>
+            <td class="passed">Passed</td>
+          </tr>
+                  <tr>
+            <td class="tagname"><a href="Classification.html">@Classification</a></td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>4</td>
+            <td>4</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td class="duration-format">09s 842ms</td>
+            <td class="passed">Passed</td>
+          </tr>
+                  <tr>
+            <td class="tagname"><a href="Literarture.html">@Literarture</a></td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>4</td>
+            <td>4</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td class="duration-format">10s 071ms</td>
+            <td class="passed">Passed</td>
+          </tr>
+                  <tr>
+            <td class="tagname"><a href="Names.html">@Names</a></td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>4</td>
+            <td>4</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td class="duration-format">10s 329ms</td>
+            <td class="passed">Passed</td>
+          </tr>
+                  <tr>
+            <td class="tagname"><a href="Overview.html">@Overview</a></td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>4</td>
+            <td>4</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td class="duration-format">12s 167ms</td>
+            <td class="passed">Passed</td>
+          </tr>
+                  <tr>
+            <td class="tagname"><a href="RefineCommonName.html">@RefineCommonName</a></td>
             <td>1</td>
             <td>1</td>
             <td>0</td>
@@ -214,25 +289,100 @@ $(document).ready(function() {
             <td >0</td>
             <td >0</td>
             <td >0</td>
-            <td class="duration-format">29s 701ms</td>
+            <td class="duration-format">07s 343ms</td>
+            <td class="passed">Passed</td>
+          </tr>
+                  <tr>
+            <td class="tagname"><a href="RefineSpecies.html">@RefineSpecies</a></td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>3</td>
+            <td>3</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td class="duration-format">07s 354ms</td>
+            <td class="passed">Passed</td>
+          </tr>
+                  <tr>
+            <td class="tagname"><a href="Sequences.html">@Sequences</a></td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>4</td>
+            <td>4</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td class="duration-format">10s 604ms</td>
+            <td class="passed">Passed</td>
+          </tr>
+                  <tr>
+            <td class="tagname"><a href="Smoke.html">@Smoke</a></td>
+            <td>5</td>
+            <td>5</td>
+            <td>0</td>
+            <td>16</td>
+            <td>16</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td class="duration-format">42s 622ms</td>
+            <td class="passed">Passed</td>
+          </tr>
+                  <tr>
+            <td class="tagname"><a href="TaxanomicStatusAccepted.html">@TaxanomicStatusAccepted</a></td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>3</td>
+            <td>3</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td class="duration-format">08s 110ms</td>
+            <td class="passed">Passed</td>
+          </tr>
+                  <tr>
+            <td class="tagname"><a href="TaxanomicStatusSynonym.html">@TaxanomicStatusSynonym</a></td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>3</td>
+            <td>3</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td >0</td>
+            <td class="duration-format">07s 647ms</td>
             <td class="passed">Passed</td>
           </tr>
               </tbody>
   
       <tfoot>
         <tr>
-          <td>1</td>
-          <td>1</td>
-          <td>1</td>
+          <td>11</td>
+          <td>19</td>
+          <td>19</td>
           <td>0</td>
-          <td>3</td>
-          <td>3</td>
-          <td>0</td>
-          <td>0</td>
+          <td>64</td>
+          <td>64</td>
           <td>0</td>
           <td>0</td>
           <td>0</td>
-          <td class="duration-format">29s 701ms</td>
+          <td>0</td>
+          <td>0</td>
+          <td class="duration-format">2m 48s 717ms</td>
           <td>Totals</td>
         </tr>
       </tfoot>

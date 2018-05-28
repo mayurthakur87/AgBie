@@ -1,7 +1,6 @@
 #surefire
-#Fri May 18 09:41:11 AEST 2018
-tc.1=com.cucmber.AgBie.AppTest
-tc.2=com.cucmber.AgBie.RunnerTest
+#Tue May 29 08:09:03 AEST 2018
+tc.1=com.cucmber.AgBie.RunnerTest
 tc.0=com.cucmber.AgBie.AgBiePageSmokeTest
 classPathUrl.0=C\:\\Users\\Mayur\\eclipse-workspace\\AgBie\\target\\test-classes
 classPathUrl.1=C\:\\Users\\Mayur\\eclipse-workspace\\AgBie\\target\\classes
