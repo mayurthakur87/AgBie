@@ -26,7 +26,7 @@ public class AgBiePageSmokeTest {
 	@Before("@Smoke")
 	public void Setup(Scenario scenario) {
 
-		System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\BROWSERS\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "//BROWSERS//geckodriver");
 
 		/*------------------------COMMON------------------------------*/
 		System.out.println("---------------------------------------");
